@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.music_app.Create">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/mainPageStyle"
+                android:textColor="#000000"
+                android:text="@string/Create_Music"
+            android:layout_weight="0" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mixer"
+                android:layout_weight="0.69"
+                android:id="@+id/imageView"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="@string/album"
+                style="@style/button"
+                android:id="@+id/my_albums"/>
+
+
+            <Button
+                android:text="@string/Whatnew"
+                style="@style/button"
+                android:id="@+id/whats_new"/>
+            <Button
+                style="@style/button"
+                android:text="@string/main_page"
+                android:id="@+id/returnPage"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_albums"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.android.music_app.MyAlbums">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/label"
+        android:alpha="0.5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/mainPageStyle"
+            android:textColor="#000000"
+            android:text="@string/myAlbums"/>
+
+        <Button
+            android:text="@string/create"
+            style="@style/button"
+            android:id="@+id/create_music"/>
+        <Button
+            android:text="@string/concerts"
+            style="@style/button"
+            android:id="@+id/concerts"/>
+        <Button
+            style="@style/button"
+            android:text="@string/main_page"
+            android:id="@+id/returnPage"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

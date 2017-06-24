@@ -1,0 +1,33 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=10] -->
+    <string name="app_name">MRL</string>
+    <!--Welcome page to the app. [CHAR LIMIT 100] -->
+    <string name="welcome">Welcome to the Major Record Label</string>
+    <!-- Get Started Button opens main menu. [CHAR LIMIT 20] -->
+    <string name="get_started">Get Started</string>
+
+    <!--Category name for the Main Page. [CHAR LIMIT 20] -->
+    <string name="main_page">Main Page</string>
+
+    <!--Category name for the Album. [CHAR LIMIT 20] -->
+    <string name="album"> > My Albums</string>
+
+    <!--Explains the purpose of the Activity My Albums.  -->
+    <string name="myAlbums"> This page stores all the albums saved by the user and gives an easy access to choose a desired album and play it. </string>
+
+    <!--Category name for the What's new. [CHAR LIMIT 20] -->
+    <string name="Whatnew"> > Whats new</string>
+    <!--Explains the purpose of the Activity What's new.  -->
+    <string name="WhatsNew"> This page will list new releases based on the taste of the user with reviews and star system for each album.</string>
+
+    <!--Category name for the Create Music. [CHAR LIMIT 20] -->
+    <string name="create"> > Create Music</string>
+    <!--Explains the purpose of the Activity Create Music.  -->
+    <string name="Create_Music"> On this page user can play around with various music and create remixes to its favorite songs.</string>
+
+    <!--Explains the purpose of the Activity Concerts around.  -->
+    <string name="concerts"> > Concerts Around</string>
+
+    <!--Category name for the Concerts around. [CHAR LIMIT 20] -->
+    <string name="Concerts_Around"> This page shows concerts that are happening near, allowing one to purchase concert tickets on the app itself. That will be done through Intent, OnClick and a new library PayPal_MPL.jar.</string>
+</resources>

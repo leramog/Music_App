@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.android.music_app.MainPage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_mrl"
+        android:alpha=".6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="380dp"
+            android:layout_height="37dp"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="25dp"
+            android:background="#F5F5F5"
+            />
+
+        <TextView
+            android:text="@string/album"
+            style="@style/mainPageStyle"
+            android:paddingTop="40dp"
+            android:id="@+id/album"
+            />
+        <TextView
+            android:text="@string/Whatnew"
+            style="@style/mainPageStyle"
+            android:paddingTop="20dp"
+            android:id="@+id/whatnew"
+            />
+
+        <TextView
+            android:text="@string/create"
+            style="@style/mainPageStyle"
+            android:paddingTop="20dp"
+            android:id="@+id/create"
+            />
+        <TextView
+            android:text="@string/concerts"
+            style="@style/mainPageStyle"
+            android:paddingTop="20dp"
+            android:id="@+id/concerts"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_whats_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.music_app.WhatsNew">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/capit"
+        android:alpha="0.6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/mainPageStyle"
+            android:textColor="#000000"
+            android:text="@string/WhatsNew"/>
+
+        <Button
+            android:text="@string/album"
+            style="@style/button"
+            android:id="@+id/my_albums"/>
+        <Button
+            android:text="@string/concerts"
+            style="@style/button"
+            android:id="@+id/concerts_around"/>
+        <Button
+            style="@style/button"
+            android:text="@string/main_page"
+            android:id="@+id/returnPage"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
